@@ -29,7 +29,6 @@ class InsertRecordsController extends Controller{
         $recordObject["Type"] = "Existing Business";
         $recordObject["Lead_Source"] = "Online Store";
         $recordObject["Amount"] = $amount;
-        $recordObject["Notes"] = '500vjdsvjdsivjdvijsddsv';
         
         $recordArray[] = $recordObject;
         $requestBody["data"] = $recordArray;
